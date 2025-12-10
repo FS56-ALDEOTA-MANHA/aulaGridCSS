@@ -22,11 +22,28 @@ section {
 .section-metricas {
   background-color: transparent;
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.div-metrica {
-  background-color: #5383EC;
+.div-metrica1 {
+  background: radial-gradient( #ffffff2a, #5383EC );
+  border-radius: 20px;
+}
+
+.div-metrica2 {
+  background: radial-gradient(#ffffff2a, #9C55EC);
+  border-radius: 20px;
+}
+
+.div-metrica3 {
+  background: radial-gradient(#ffffff2a, #111E5F);
+  border-radius: 20px;
+}
+
+.div-metrica4 {
+  background: radial-gradient(#ffffff2a, #F1911E);
+  border-radius: 20px;
 }
 
 .section-metricas, .section-vendas {
