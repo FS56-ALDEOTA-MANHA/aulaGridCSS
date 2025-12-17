@@ -33,7 +33,7 @@ main {
   display: grid;
   gap: 24px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 1fr;
+  grid-template-rows: 100px 400px 1fr;
   padding: 0 70px;
 }
 
@@ -124,6 +124,11 @@ section h1 {
 
 .section-satisfacao{
   text-align: center;
+}
+
+.section-satisfacao img {
+  width: 60%;
+  margin-top: 20px;
 }
 
 .section-vendas {
